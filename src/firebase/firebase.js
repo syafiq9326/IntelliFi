@@ -9,12 +9,12 @@ import { getStorage, ref } from 'firebase/storage'; // Add this import
 // Your web app's Firebase configuration
 const firebaseConfig = {
 //left blank (need fil urs)
-  apiKey: "",
-  authDomain: "intellifi-5061b.firebaseapp.com",
-  projectId: "intellifi-5061b",
-  storageBucket: "intellifi-5061b.appspot.com",
-  messagingSenderId: "508262575106",
-  appId: "1:508262575106:web:2ac8889df56ef9ad310b1b",
+  // apiKey: "",
+  // authDomain: 
+  // projectId: "
+  // storageBucket:
+  // messagingSenderId: 
+  // appId: 
 };
 
 // Initialize Firebase
