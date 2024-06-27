@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toggle/style.css';
+/* Default light mode styles */
+body {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Dark mode styles */
+body.dark {
+  /* background-color: #222222; */
+  background-color: #212332;
+  color: #ffffff;
+}
+
+.overview1.dark {
+  background-color: #373b4f; /* Dark background color */
+  color: #ffffff; /* White text color */
+}
+
+.overview1 {
+  background-color: #ffffff; /* White text color */
+  ; /* Dark background color */
+  color: #222222; /* White text color */
+
+}
+
+.container.dark {
+  background-color: #373b4f; /* Dark background color */
+  color: #ffffff; /* White text color */
+}
+
+.container {
+  background-color: #ffffff; /* White text color */
+  ; /* Dark background color */
+  color: #222222; /* White text color */
+
+}
+
+.login-container {
+  width: calc(50vw - 150px);
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex; /* Use flexbox for positioning */
+  align-items: center; /* Center the content vertically */
+  justify-content: flex-end; /* Center the content horizontally */
+}
+
+.photo {
+  width: 4500px;/* Set the width to 50% of the viewport width */
+  height: 100vh; /* Maintain aspect ratio */
+  justify-content: flex-start; /* Adjust the spacing between the photo and the form */
+  background-position: right center;
+}
+
+
+.navbar-container {
+  height: 130vh; /* Adjust the height to fill the entire viewport */
+}
